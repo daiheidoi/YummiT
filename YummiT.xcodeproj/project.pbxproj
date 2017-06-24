@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C713A6775004D8DDF0BF208B /* Pods_YummiT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBAE15765AC8877979767DFC /* Pods_YummiT.framework */; };
+		F90DDE8C1EF9591100FC480E /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90DDE8B1EF9591100FC480E /* Const.swift */; };
+		F90DDE8E1EF95B0300FC480E /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90DDE8D1EF95B0300FC480E /* PostData.swift */; };
+		F90DDE911EF95B9F00FC480E /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90DDE8F1EF95B9F00FC480E /* PostTableViewCell.swift */; };
+		F90DDE921EF95B9F00FC480E /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F90DDE901EF95B9F00FC480E /* PostTableViewCell.xib */; };
+		F90DDE951EFE7F5600FC480E /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDE931EFE7F5600FC480E /* AdobeCreativeSDKCore.framework */; };
+		F90DDE981EFE7FBD00FC480E /* AdobeCreativeSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDE931EFE7F5600FC480E /* AdobeCreativeSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F90DDE991EFE7FBD00FC480E /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDE941EFE7F5600FC480E /* AdobeCreativeSDKImage.framework */; };
+		F90DDE9A1EFE7FBD00FC480E /* AdobeCreativeSDKImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDE941EFE7F5600FC480E /* AdobeCreativeSDKImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F90DDE9D1EFE80AF00FC480E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDE9C1EFE80AF00FC480E /* Accelerate.framework */; };
+		F90DDE9F1EFE80B900FC480E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDE9E1EFE80B900FC480E /* CoreData.framework */; };
+		F90DDEA11EFE80C800FC480E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDEA01EFE80C800FC480E /* MessageUI.framework */; };
+		F90DDEA31EFE80D100FC480E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDEA21EFE80D100FC480E /* OpenGLES.framework */; };
+		F90DDEA51EFE80D900FC480E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDEA41EFE80D900FC480E /* QuartzCore.framework */; };
+		F90DDEA71EFE80EA00FC480E /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDEA61EFE80EA00FC480E /* libc++.tbd */; };
+		F90DDEA91EFE80F400FC480E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDEA81EFE80F400FC480E /* libz.tbd */; };
+		F90DDEAB1EFE80FD00FC480E /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDEAA1EFE80FD00FC480E /* libz.1.2.5.tbd */; };
+		F90DDEAD1EFE810700FC480E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDEAC1EFE810700FC480E /* libsqlite3.0.tbd */; };
+		F90DDEAF1EFE810E00FC480E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDEAE1EFE810E00FC480E /* MobileCoreServices.framework */; };
+		F90DDEB11EFE811900FC480E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90DDEB01EFE811900FC480E /* SystemConfiguration.framework */; };
+		F983CF991EE049FB00BAA1EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F983CF981EE049FB00BAA1EE /* AppDelegate.swift */; };
+		F983CF9B1EE049FB00BAA1EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F983CF9A1EE049FB00BAA1EE /* ViewController.swift */; };
+		F983CF9E1EE049FB00BAA1EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F983CF9C1EE049FB00BAA1EE /* Main.storyboard */; };
+		F983CFA01EE049FB00BAA1EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F983CF9F1EE049FB00BAA1EE /* Assets.xcassets */; };
+		F983CFA31EE049FB00BAA1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F983CFA11EE049FB00BAA1EE /* LaunchScreen.storyboard */; };
+		F983CFB31EE04B1E00BAA1EE /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F983CFB21EE04B1E00BAA1EE /* SettingViewController.swift */; };
+		F9B6EF541EE0524C00C23B43 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6EF531EE0524C00C23B43 /* LoginViewController.swift */; };
+		F9B6EF561EE0527400C23B43 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6EF551EE0527400C23B43 /* HomeViewController.swift */; };
+		F9B6EF581EE0528E00C23B43 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6EF571EE0528E00C23B43 /* ImageSelectViewController.swift */; };
+		F9B6EF5A1EE052A700C23B43 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6EF591EE052A700C23B43 /* PostViewController.swift */; };
+		F9B6EF5C1EE056ED00C23B43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9B6EF5B1EE056ED00C23B43 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F90DDE9B1EFE7FBD00FC480E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F90DDE9A1EFE7FBD00FC480E /* AdobeCreativeSDKImage.framework in Embed Frameworks */,
+				F90DDE981EFE7FBD00FC480E /* AdobeCreativeSDKCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7EEFFB9D909C294E53C58EFC /* Pods-YummiT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YummiT.release.xcconfig"; path = "Pods/Target Support Files/Pods-YummiT/Pods-YummiT.release.xcconfig"; sourceTree = "<group>"; };
+		C68569DE6FD88E89FF05C06C /* Pods-YummiT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YummiT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YummiT/Pods-YummiT.debug.xcconfig"; sourceTree = "<group>"; };
+		EBAE15765AC8877979767DFC /* Pods_YummiT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YummiT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90DDE8B1EF9591100FC480E /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		F90DDE8D1EF95B0300FC480E /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		F90DDE8F1EF95B9F00FC480E /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		F90DDE901EF95B9F00FC480E /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		F90DDE931EFE7F5600FC480E /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
+		F90DDE941EFE7F5600FC480E /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		F90DDE9C1EFE80AF00FC480E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F90DDE9E1EFE80B900FC480E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F90DDEA01EFE80C800FC480E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F90DDEA21EFE80D100FC480E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F90DDEA41EFE80D900FC480E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F90DDEA61EFE80EA00FC480E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F90DDEA81EFE80F400FC480E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F90DDEAA1EFE80FD00FC480E /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		F90DDEAC1EFE810700FC480E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F90DDEAE1EFE810E00FC480E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F90DDEB01EFE811900FC480E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F90DDEB41EFE8BD600FC480E /* YummiT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YummiT-Bridging-Header.h"; sourceTree = "<group>"; };
+		F983CF951EE049FB00BAA1EE /* YummiT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YummiT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F983CF981EE049FB00BAA1EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F983CF9A1EE049FB00BAA1EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F983CF9D1EE049FB00BAA1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F983CF9F1EE049FB00BAA1EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F983CFA21EE049FB00BAA1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F983CFA41EE049FB00BAA1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F983CFB21EE04B1E00BAA1EE /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		F9B6EF531EE0524C00C23B43 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F9B6EF551EE0527400C23B43 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F9B6EF571EE0528E00C23B43 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		F9B6EF591EE052A700C23B43 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		F9B6EF5B1EE056ED00C23B43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F983CF921EE049FB00BAA1EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90DDEB11EFE811900FC480E /* SystemConfiguration.framework in Frameworks */,
+				F90DDEAF1EFE810E00FC480E /* MobileCoreServices.framework in Frameworks */,
+				F90DDEAD1EFE810700FC480E /* libsqlite3.0.tbd in Frameworks */,
+				F90DDEAB1EFE80FD00FC480E /* libz.1.2.5.tbd in Frameworks */,
+				F90DDEA91EFE80F400FC480E /* libz.tbd in Frameworks */,
+				F90DDEA71EFE80EA00FC480E /* libc++.tbd in Frameworks */,
+				F90DDEA51EFE80D900FC480E /* QuartzCore.framework in Frameworks */,
+				F90DDEA31EFE80D100FC480E /* OpenGLES.framework in Frameworks */,
+				F90DDEA11EFE80C800FC480E /* MessageUI.framework in Frameworks */,
+				F90DDE9F1EFE80B900FC480E /* CoreData.framework in Frameworks */,
+				F90DDE9D1EFE80AF00FC480E /* Accelerate.framework in Frameworks */,
+				C713A6775004D8DDF0BF208B /* Pods_YummiT.framework in Frameworks */,
+				F90DDE951EFE7F5600FC480E /* AdobeCreativeSDKCore.framework in Frameworks */,
+				F90DDE991EFE7FBD00FC480E /* AdobeCreativeSDKImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BCBC7B95EDFCA5747E143B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C68569DE6FD88E89FF05C06C /* Pods-YummiT.debug.xcconfig */,
+				7EEFFB9D909C294E53C58EFC /* Pods-YummiT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81DDA6C5A6C45AC6BA17ACA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F90DDEB01EFE811900FC480E /* SystemConfiguration.framework */,
+				F90DDEAE1EFE810E00FC480E /* MobileCoreServices.framework */,
+				F90DDEAC1EFE810700FC480E /* libsqlite3.0.tbd */,
+				F90DDEAA1EFE80FD00FC480E /* libz.1.2.5.tbd */,
+				F90DDEA81EFE80F400FC480E /* libz.tbd */,
+				F90DDEA61EFE80EA00FC480E /* libc++.tbd */,
+				F90DDEA41EFE80D900FC480E /* QuartzCore.framework */,
+				F90DDEA21EFE80D100FC480E /* OpenGLES.framework */,
+				F90DDEA01EFE80C800FC480E /* MessageUI.framework */,
+				F90DDE9E1EFE80B900FC480E /* CoreData.framework */,
+				F90DDE9C1EFE80AF00FC480E /* Accelerate.framework */,
+				EBAE15765AC8877979767DFC /* Pods_YummiT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F983CF8C1EE049FB00BAA1EE = {
+			isa = PBXGroup;
+			children = (
+				F983CF971EE049FB00BAA1EE /* YummiT */,
+				F983CF961EE049FB00BAA1EE /* Products */,
+				5BCBC7B95EDFCA5747E143B8 /* Pods */,
+				81DDA6C5A6C45AC6BA17ACA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F983CF961EE049FB00BAA1EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F983CF951EE049FB00BAA1EE /* YummiT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F983CF971EE049FB00BAA1EE /* YummiT */ = {
+			isa = PBXGroup;
+			children = (
+				F90DDEB41EFE8BD600FC480E /* YummiT-Bridging-Header.h */,
+				F90DDE931EFE7F5600FC480E /* AdobeCreativeSDKCore.framework */,
+				F90DDE941EFE7F5600FC480E /* AdobeCreativeSDKImage.framework */,
+				F983CF981EE049FB00BAA1EE /* AppDelegate.swift */,
+				F983CF9C1EE049FB00BAA1EE /* Main.storyboard */,
+				F90DDE8D1EF95B0300FC480E /* PostData.swift */,
+				F90DDE8F1EF95B9F00FC480E /* PostTableViewCell.swift */,
+				F90DDE901EF95B9F00FC480E /* PostTableViewCell.xib */,
+				F983CF9A1EE049FB00BAA1EE /* ViewController.swift */,
+				F983CFB21EE04B1E00BAA1EE /* SettingViewController.swift */,
+				F983CF9F1EE049FB00BAA1EE /* Assets.xcassets */,
+				F983CFA11EE049FB00BAA1EE /* LaunchScreen.storyboard */,
+				F983CFA41EE049FB00BAA1EE /* Info.plist */,
+				F9B6EF5B1EE056ED00C23B43 /* GoogleService-Info.plist */,
+				F9B6EF531EE0524C00C23B43 /* LoginViewController.swift */,
+				F9B6EF551EE0527400C23B43 /* HomeViewController.swift */,
+				F9B6EF571EE0528E00C23B43 /* ImageSelectViewController.swift */,
+				F9B6EF591EE052A700C23B43 /* PostViewController.swift */,
+				F90DDE8B1EF9591100FC480E /* Const.swift */,
+			);
+			path = YummiT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F983CF941EE049FB00BAA1EE /* YummiT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F983CFA71EE049FB00BAA1EE /* Build configuration list for PBXNativeTarget "YummiT" */;
+			buildPhases = (
+				7642D0DFDE1028FDB7D02D21 /* [CP] Check Pods Manifest.lock */,
+				F983CF911EE049FB00BAA1EE /* Sources */,
+				F983CF921EE049FB00BAA1EE /* Frameworks */,
+				F983CF931EE049FB00BAA1EE /* Resources */,
+				35238EF305F4B97D5CD53944 /* [CP] Copy Pods Resources */,
+				B2BBB86CE1F1E372B87A89F1 /* [CP] Embed Pods Frameworks */,
+				F90DDE9B1EFE7FBD00FC480E /* Embed Frameworks */,
+				F90DDEB21EFE81BE00FC480E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YummiT;
+			productName = YummiT;
+			productReference = F983CF951EE049FB00BAA1EE /* YummiT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F983CF8D1EE049FB00BAA1EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Skybridge7;
+				TargetAttributes = {
+					F983CF941EE049FB00BAA1EE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 83XX87REK4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F983CF901EE049FB00BAA1EE /* Build configuration list for PBXProject "YummiT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F983CF8C1EE049FB00BAA1EE;
+			productRefGroup = F983CF961EE049FB00BAA1EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F983CF941EE049FB00BAA1EE /* YummiT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F983CF931EE049FB00BAA1EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F983CFA31EE049FB00BAA1EE /* LaunchScreen.storyboard in Resources */,
+				F90DDE921EF95B9F00FC480E /* PostTableViewCell.xib in Resources */,
+				F9B6EF5C1EE056ED00C23B43 /* GoogleService-Info.plist in Resources */,
+				F983CFA01EE049FB00BAA1EE /* Assets.xcassets in Resources */,
+				F983CF9E1EE049FB00BAA1EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35238EF305F4B97D5CD53944 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YummiT/Pods-YummiT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7642D0DFDE1028FDB7D02D21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2BBB86CE1F1E372B87A89F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YummiT/Pods-YummiT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90DDEB21EFE81BE00FC480E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdobeCreativeSDKCore.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F983CF911EE049FB00BAA1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F983CF9B1EE049FB00BAA1EE /* ViewController.swift in Sources */,
+				F90DDE8E1EF95B0300FC480E /* PostData.swift in Sources */,
+				F983CF991EE049FB00BAA1EE /* AppDelegate.swift in Sources */,
+				F9B6EF541EE0524C00C23B43 /* LoginViewController.swift in Sources */,
+				F9B6EF561EE0527400C23B43 /* HomeViewController.swift in Sources */,
+				F983CFB31EE04B1E00BAA1EE /* SettingViewController.swift in Sources */,
+				F90DDE8C1EF9591100FC480E /* Const.swift in Sources */,
+				F90DDE911EF95B9F00FC480E /* PostTableViewCell.swift in Sources */,
+				F9B6EF581EE0528E00C23B43 /* ImageSelectViewController.swift in Sources */,
+				F9B6EF5A1EE052A700C23B43 /* PostViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F983CF9C1EE049FB00BAA1EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F983CF9D1EE049FB00BAA1EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F983CFA11EE049FB00BAA1EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F983CFA21EE049FB00BAA1EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F983CFA51EE049FB00BAA1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F983CFA61EE049FB00BAA1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F983CFA81EE049FB00BAA1EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68569DE6FD88E89FF05C06C /* Pods-YummiT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83XX87REK4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YummiT",
+				);
+				INFOPLIST_FILE = YummiT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.skybridgeSevenSeas.YummiT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YummiT/YummiT-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F983CFA91EE049FB00BAA1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEFFB9D909C294E53C58EFC /* Pods-YummiT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83XX87REK4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YummiT",
+				);
+				INFOPLIST_FILE = YummiT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.skybridgeSevenSeas.YummiT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YummiT/YummiT-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F983CF901EE049FB00BAA1EE /* Build configuration list for PBXProject "YummiT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F983CFA51EE049FB00BAA1EE /* Debug */,
+				F983CFA61EE049FB00BAA1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F983CFA71EE049FB00BAA1EE /* Build configuration list for PBXNativeTarget "YummiT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F983CFA81EE049FB00BAA1EE /* Debug */,
+				F983CFA91EE049FB00BAA1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F983CF8D1EE049FB00BAA1EE /* Project object */;
+}
