@@ -31,7 +31,7 @@
         <!--Login View Controller-->
         <scene sceneID="FZq-YH-rlx">
             <objects>
-                <viewController storyboardIdentifier="Login" id="kPM-BG-g3L" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" id="kPM-BG-g3L" customClass="LoginViewController" customModule="YummiT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kZN-Jo-H5m"/>
                         <viewControllerLayoutGuide type="bottom" id="uB3-dW-n7T"/>
@@ -115,7 +115,7 @@
         <!--Image Select View Controller-->
         <scene sceneID="o9D-gQ-de7">
             <objects>
-                <viewController storyboardIdentifier="ImageSelect" id="ru2-tw-51e" customClass="ImageSelectViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ImageSelect" id="ru2-tw-51e" customClass="ImageSelectViewController" customModule="YummiT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RHL-h8-dT5"/>
                         <viewControllerLayoutGuide type="bottom" id="On6-C7-NTh"/>
@@ -173,7 +173,7 @@
         <!--Post View Controller-->
         <scene sceneID="Xbb-eJ-TEJ">
             <objects>
-                <viewController storyboardIdentifier="Post" id="4Pf-rv-ylZ" customClass="PostViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Post" id="4Pf-rv-ylZ" customClass="PostViewController" customModule="YummiT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vFz-ZC-Qs1"/>
                         <viewControllerLayoutGuide type="bottom" id="vRZ-iG-KTG"/>
@@ -243,7 +243,7 @@
         <!--Setting View Controller-->
         <scene sceneID="Ztd-k3-bcg">
             <objects>
-                <viewController storyboardIdentifier="Setting" id="C47-AM-TN4" customClass="SettingViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Setting" id="C47-AM-TN4" customClass="SettingViewController" customModule="YummiT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gmn-RG-WBV"/>
                         <viewControllerLayoutGuide type="bottom" id="BJg-WT-eVs"/>
@@ -303,7 +303,7 @@
         <!--Home View Controller-->
         <scene sceneID="d18-Sz-Xod">
             <objects>
-                <viewController storyboardIdentifier="Home" id="KBo-mq-NVZ" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Home" id="KBo-mq-NVZ" customClass="HomeViewController" customModule="YummiT" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ciU-YW-B8K"/>
                         <viewControllerLayoutGuide type="bottom" id="TAX-6z-cFK"/>
